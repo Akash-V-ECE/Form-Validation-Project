@@ -1,0 +1,69 @@
+:root{
+    --darkblue:rgba(29,42,215,1);
+    --cyan:rgba(45,253,251,1);
+}
+body{
+    background: rgb(45,253,251);
+background: linear-gradient(0deg, rgba(45,253,251,1) 10%, rgba(29,42,215,1) 95%);
+    background-attachment: fixed;
+    margin:0;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+#form{
+    width:400px;
+    margin:13vh auto 0 auto;
+    background-color: whitesmoke;
+    border-radius: 6px;
+    padding:30px;
+    padding-top:5px;
+}
+h1{
+    text-align: center;
+    color:var(--darkblue);
+
+}
+#form button{
+    background-color: var(--darkblue);
+    color:white;
+    border:1px solid var(--darkblue);
+    padding:10px;
+    margin:20px 0px;
+    border-radius: 5px;
+    cursor:pointer;
+    font-size:20px;
+    width:100%;
+}
+#form button:hover{
+    border: none;
+    background: #ff7a59;
+    color: #fff;
+    position: relative;
+    box-sizing: border-box;
+    transition: all 500ms ease-in-out; 
+}
+.input-group{
+    display:flex;
+    margin-bottom: 15px;
+    flex-direction:column;
+}
+.input-group input{
+    border-radius: 5px;
+    font-size: 20px;
+    margin-top: 5px;
+    padding:5px 10px;
+    border:2px solid var(--cyan);
+}
+.input-group input:focus{
+    outline:none;
+}
+.input-group .error{
+    color:red;
+    font-size:16px;
+    margin-top:5px
+}
+.input-group.success input{
+    border-color: green;
+}
+.input-group.error input{
+    border-color: red;
+}
