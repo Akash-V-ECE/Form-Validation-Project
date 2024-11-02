@@ -9,6 +9,12 @@ background: linear-gradient(0deg, rgba(45,253,251,1) 10%, rgba(29,42,215,1) 95%)
     margin:0;
     font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
+.gettu{
+    color:rgb(230, 185, 63);
+}
+.container{
+    margin-top:-50px;
+}
 #form{
     width:400px;
     margin:13vh auto 0 auto;
